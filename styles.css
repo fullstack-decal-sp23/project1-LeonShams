@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  background-color: black;
+  height: 230vh;
+}
+
+.background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+#nav-container {
+  display: flex;
+  padding: 2vh 1vw 1vh 1vw;
+}
+
+#logo-text {
+  font-family: "Inter", sans-serif;
+  color: white;
+  font-weight: 200;
+  font-size: 1.75rem;
+  margin-left: 3.5vw;
+  margin-top: 1vh;
+}
+
+#nav-item-container {
+  display: flex;
+  margin-top: 2vh;
+  margin-right: 3vw;
+  margin-left: auto;
+}
+
+.nav-item {
+  display: flex-item;
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  margin: 1vh 2vw 1vh 2vw;
+  color: white;
+  text-decoration: none;
+}
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(0%, -50%);
+}
+
+#name {
+  font-family: "Inter", sans-serif;
+  font-size: 4rem;
+  color: white;
+  font-weight: 600;
+  margin: 0 0 4vh 0;
+}
+
+#name-subheading {
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  color: white;
+  font-weight: 300;
+}
+
+#profile-picture-container {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translate(0%, -50%);
+}
+
+#profile-picture {
+  border-radius: 50%;
+  width: 30vw;
+  height: 30vw;
+  margin: 0 0 2vh 0;
+  object-fit: cover;
+  border: 0.1vw solid rgba(255, 255, 255, 0.3);
+}
+
+#about-work-container {
+  position: absolute;
+  top: 120vh;
+}
+
+#about-title {
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 600;
+  margin: 0 0 10vh 0;
+}
+
+#about-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 70vw;
+  margin: 0 15vw 15vh 15vw;
+}
+
+#about-text {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 300;
+  margin: 0 0 1vh 0;
+}
+
+#work-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#work-title {
+  font-family: "Inter", sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 600;
+  margin: 0 0 10vh 0;
+}
+
+#work-item-container {
+  display: flex;
+  align-items: center;
+  width: 80vw;
+  margin: 0 10vw 0 10vw;
+}
+
+.work-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  margin: 2vh 2.5vw 2vh 2.5vw;
+  padding: 6vh 5vw 6vh 5vw;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5vw;
+}
+
+.work-item-title {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+  margin: 0 0 1vh 0;
+}
+
+.work-item-subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 300;
+  margin: 0 0 4vh 0;
+}
+
+.work-item-text {
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  color: white;
+  font-weight: 300;
+  margin: 0 0 1vh 0;
+}
